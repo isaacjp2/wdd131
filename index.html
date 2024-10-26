@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WDD 131</title>
-    </head>
-    <body>
-        <h1>WDD 131 - ISAACJP</h1>
-    </body>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Isaac Jean-Philippe</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals, Hello I am Isaac Jean-Philippe, this is a short introduction of myself in my home page.">
+    <meta name="author" content="Isaac Jean-Philippe">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Isaac Jean-Philippe</span></h1>
+        <nav class="navigation">
+            <a href="https://www.linkedin.com/in/isaac-jean-philippe-199b5527a/"
+                title="My LinkedIn Profile">LinkedIn</a>
+            <a href="https://byui.instructure.com/" title="Here is where I study">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p17#p17"
+                title="This is my favorite scripture">Scripture</a>
+            <a href="#" title="Coming soon">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card left">
+            <div class="box bio">
+                <h2>About Me</h2>
+                <p>
+                    Hello I am Isaac Jean-Philippe I am Haitian, I work as a computer support at OmanuDigital,
+                    a great Technology Company in my hometown. I am single, I leave in great house with my family, they
+                    are good persons.
+                    Today I have the opportunity, to study in BYU-I Software Developpment, I almost Finish my first
+                    Certificate,
+                    It's a great major, I love it, in the future I want to improve myself in the major, to become the
+                    best! 😀
+                </p>
+                <img src="images/isaac-profile.jpg" alt="Isaac Jean-Philippe" width="190" height="210">
+            </div>
+            <div class="box city">
+                <h2>Jacmel, Haiti</h2>
+                <figure>
+                    <img src="images/haiti-flag.png" alt="This is the Official flag of Haiti" width="300" height="200">
+                    <figcaption>Official flag of Haiti</figcaption>
+                </figure>
+                <p>
+                    Haiti is a country located in the Caribbean, It proclaimed its independence on January 1, 1804,
+                    with heroes like Jean Jacques Dessalines, Henry Christophe, Sanite Bélair, Toussait Louverture,
+                    Capoix and many others. Today the country is divided into 10 departments, I live in the department
+                    called Sud'Est In a city called Jacmel. In this city I work as a computer technician For more than
+                    10 months, I am a student at BYU-Idaho through the pathway connect program and I study software
+                    Development, it is a really exciting field.
+                </p>
+            </div>
+        </section>
+        <section class="card right">
+            <div class="box web">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a href="https://stackoverflow.com/">Stack Over Flow</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> ▶ Isaac Jean-Philippe ▶ Haiti ▶</p>
+        <p id="lastModified" class="highlight"></p>
+    </footer>
+</body>
+
 </html>
